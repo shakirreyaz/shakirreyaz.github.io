@@ -94,29 +94,23 @@ footer { padding:35px 24px; text-align:center; color:var(--muted); border-top:1p
   .hero-meta { flex-direction:column; gap:8px; }
 }
 /* ===============================
-   CONTACT SECTION
+   CONTACT SECTION - MATCH ACADEMIC BACKGROUND
 ================================ */
 
 .contact-section {
-  background: #242625;
-  color: #f3f3eb;
+  background: #0b1020;
+  color: #e8edf7;
 
   padding:
     clamp(80px, 9vw, 130px)
     max(5vw, 28px);
 }
 
-
 .contact-header {
   max-width: 950px;
-
-  margin:
-    0 auto
-    45px;
-
+  margin: 0 auto 45px;
   text-align: center;
 }
-
 
 .contact-header h2 {
   margin: 0 0 16px;
@@ -126,126 +120,84 @@ footer { padding:35px 24px; text-align:center; color:var(--muted); border-top:1p
     sans-serif;
 
   font-size:
-    clamp(
-      3rem,
-      7vw,
-      6rem
-    );
+    clamp(3rem, 7vw, 6rem);
 
   line-height: .95;
-
   letter-spacing: -.06em;
+
+  color: #e8edf7;
 }
 
-
 .contact-header p {
-  margin:
-    0 auto;
-
+  margin: 0 auto;
   max-width: 800px;
 
-  color: #c8cdc8;
-
+  color: #9aa8bf;
   font-size: 1.05rem;
 }
 
 
-/* FORM */
+/* ===============================
+   FORM
+================================ */
 
 .contact-form {
-
   max-width: 1100px;
-
   margin: auto;
 
   padding:
-    clamp(
-      24px,
-      4vw,
-      40px
-    );
+    clamp(24px, 4vw, 40px);
 
-  background:
-    #303230;
+  background: #121a2d;
 
-  border:
-    1px solid
-    #60645f;
+  border: 1px solid rgba(255,255,255,.09);
 
-  border-radius:
-    20px;
+  border-radius: 20px;
 
   box-shadow:
-    0
-    25px
-    60px
-    rgba(
-      0,
-      0,
-      0,
-      .25
-    );
+    0 18px 55px
+    rgba(3,8,20,.35);
 }
 
-
 .form-row {
-
   display: grid;
 
   grid-template-columns:
-    1fr
-    1fr;
+    1fr 1fr;
 
   gap: 18px;
 }
 
-
 .form-group {
-
-  margin-bottom:
-    22px;
+  margin-bottom: 22px;
 }
-
 
 .form-group label {
-
   display: block;
 
-  margin-bottom:
-    8px;
+  margin-bottom: 8px;
 
-  color:
-    #e2e5df;
+  color: #e8edf7;
 
-  font-size:
-    .9rem;
-
-  font-weight:
-    700;
+  font-size: .9rem;
+  font-weight: 700;
 }
-
 
 .form-group input,
 .form-group textarea {
-
   width: 100%;
 
-  padding:
-    15px
-    16px;
+  padding: 15px 16px;
 
   border:
     1px solid
-    #666a65;
+    rgba(255,255,255,.14);
 
-  border-radius:
-    13px;
+  border-radius: 13px;
 
-  background:
-    #2c2e2d;
+  background: #0f1627;
 
-  color:
-    #ffffff;
+  color: #e8edf7;
 
   font: inherit;
 
@@ -256,70 +208,49 @@ footer { padding:35px 24px; text-align:center; color:var(--muted); border-top:1p
     box-shadow .2s ease;
 }
 
-
 .form-group input::placeholder,
 .form-group textarea::placeholder {
-
-  color:
-    #9fa49f;
+  color: #77859d;
 }
-
 
 .form-group input:focus,
 .form-group textarea:focus {
-
-  border-color:
-    #f3c84b;
+  border-color: #55d6be;
 
   box-shadow:
     0 0 0 3px
-    rgba(
-      243,
-      200,
-      75,
-      .12
-    );
+    rgba(85,214,190,.13);
 }
-
 
 .form-group textarea {
-
   resize: vertical;
-
-  min-height:
-    180px;
+  min-height: 180px;
 }
 
 
-/* BUTTON */
+/* ===============================
+   BUTTON
+================================ */
 
 .send-button {
-
   display: block;
 
   margin:
     10px auto 0;
 
   padding:
-    14px
-    26px;
+    14px 26px;
 
   border: 0;
 
-  border-radius:
-    14px;
+  border-radius: 12px;
 
-  background:
-    #f3c84b;
+  background: #55d6be;
 
-  color:
-    #151515;
+  color: #07111c;
 
-  font-size:
-    .95rem;
-
-  font-weight:
-    800;
+  font-size: .95rem;
+  font-weight: 800;
 
   cursor: pointer;
 
@@ -328,21 +259,19 @@ footer { padding:35px 24px; text-align:center; color:var(--muted); border-top:1p
     background .2s ease;
 }
 
-
 .send-button:hover {
-
   transform:
     translateY(-2px);
 
-  background:
-    #ffd867;
+  background: #6ce5cf;
 }
 
 
-/* CONTACT DETAILS */
+/* ===============================
+   CONTACT DETAILS
+================================ */
 
 .contact-info-grid {
-
   max-width: 1100px;
 
   margin:
@@ -351,70 +280,49 @@ footer { padding:35px 24px; text-align:center; color:var(--muted); border-top:1p
   display: grid;
 
   grid-template-columns:
-    repeat(
-      4,
-      1fr
-    );
+    repeat(4, 1fr);
 
   gap: 25px;
 }
 
-
 .contact-info-item {
-
   text-align: center;
 }
 
-
 .contact-icon {
-
   width: 82px;
-
   height: 82px;
 
   margin:
     0 auto 14px;
 
   display: grid;
-
   place-items: center;
 
-  border-radius:
-    50%;
+  border-radius: 50%;
 
   border:
-    4px solid
-    #f3c84b;
+    3px solid
+    #55d6be;
 
   outline:
     4px solid
-    rgba(
-      243,
-      200,
-      75,
-      .18
-    );
+    rgba(85,214,190,.10);
 
-  color:
-    #f3c84b;
+  color: #55d6be;
 
-  font-size:
-    1.8rem;
+  background: #121a2d;
 
-  font-weight:
-    800;
+  font-size: 1.8rem;
+  font-weight: 800;
 }
 
-
 .contact-info-item span {
-
   display: block;
 
-  color:
-    #9fa49f;
+  color: #9aa8bf;
 
-  font-size:
-    .75rem;
+  font-size: .75rem;
 
   text-transform:
     uppercase;
@@ -423,68 +331,52 @@ footer { padding:35px 24px; text-align:center; color:var(--muted); border-top:1p
     .11em;
 }
 
-
 .contact-info-item strong,
 .contact-info-item a {
-
   display: block;
 
   margin-top:
     5px;
 
-  color:
-    #f3f3eb;
+  color: #e8edf7;
 
-  font-weight:
-    700;
+  font-weight: 700;
 
   overflow-wrap:
     anywhere;
 }
 
-
 .contact-info-item a:hover {
-
-  color:
-    #f3c84b;
+  color: #55d6be;
 }
 
 
-/* MOBILE */
+/* ===============================
+   MOBILE
+================================ */
 
-@media
-(max-width: 800px) {
+@media (max-width: 800px) {
 
   .form-row {
-
-    grid-template-columns:
-      1fr;
+    grid-template-columns: 1fr;
   }
-
 
   .contact-info-grid {
-
     grid-template-columns:
-      1fr
-      1fr;
+      1fr 1fr;
   }
-
 }
 
-
-@media
-(max-width: 520px) {
+@media (max-width: 520px) {
 
   .contact-info-grid {
-
-    grid-template-columns:
-      1fr;
+    grid-template-columns: 1fr;
   }
 
-
   .contact-form {
-
-    border-radius:
+    border-radius: 12px;
+  }
+}
       12px;
   }
 
