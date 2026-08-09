@@ -98,12 +98,11 @@ footer { padding:35px 24px; text-align:center; color:var(--muted); border-top:1p
    MATCH ACADEMIC BACKGROUND
 ================================ */
 
-.contact-section {
+.section.contact-section {
   background: #0b1020;
   color: #e8edf7;
   padding: clamp(80px, 9vw, 130px) max(5vw, 28px);
 }
-
 
 /* ===============================
    CONTACT HEADER
